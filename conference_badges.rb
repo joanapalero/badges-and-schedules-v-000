@@ -19,7 +19,7 @@ end
 
 def printer(name_array)
   rooms = assign_rooms(name_array)
-  badges = batch_badge_creator(name_array)
+  badges = batch_badge_creator(name_array).each 
   badges.each do |greeting|
     puts greeting
   end
