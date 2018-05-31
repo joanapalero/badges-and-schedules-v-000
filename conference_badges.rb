@@ -6,7 +6,7 @@ end
 # badge_maker = ["Arel","Edsger", "Ada", "Charles", "Alan",  "Grace", "Linus", "Matz"]
 # badge_maker.each do |names|
 
-def badge_maker(names)
+def batch_badge_creator(name_array)
   result=Array.new
   name_array.each do |names|
     result.push(badge_maker(names))
