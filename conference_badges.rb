@@ -8,7 +8,7 @@ end
 
 def batch_badge_creator(names)
   result=Array.new
-  name_array.map { |name| badge_maker(name) }
+  names.map { |name| badge_maker(name) }
 end
 
 def assign_rooms(names)
