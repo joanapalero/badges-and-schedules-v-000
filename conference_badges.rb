@@ -1,5 +1,5 @@
 # Write your code here.
-def conference_badges(names)
+def badge_maker(names)
   puts "Hello, my name is #{names}."
 end
 
